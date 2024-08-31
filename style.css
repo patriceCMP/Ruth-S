@@ -1,0 +1,82 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+h1, h2 {
+    color: #0056b3; /* Bleu pour les titres */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #0056b3;
+}
+
+.navbar-nav .nav-link {
+    color: #0056b3;
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: bold;
+}
+
+#home {
+    background-image: url('./images/Ruth2.jpg'); /* Image d'accueil */
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+
+h1, h2 {
+    font-family: 'Georgia', serif;
+}
+
+.navbar {
+    background-color: #f8f9fa;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #f8f9fa;
+    color: #000;
+}
+
+footer p {
+    margin: 0;
+}
+#footer-img{
+    width: 100px;
+    height: 100px;
+}
+
+/* CANDLE ET FLAME/ SPARKLE ECTINCELLES*/
+div#sparkle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.sparkle {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: yellow;
+    border-radius: 50%;
+    animation: sparkle 1s infinite alternate;
+}
+@keyframes sparkle {
+    0% {
+        opacity: 0;
+        transform: translateY(-100px) rotate(45deg);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) rotate(45deg);
+    }
+}
+
